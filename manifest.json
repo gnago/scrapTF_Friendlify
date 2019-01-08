@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Friendlify Scrap.TF",
+  "version": "0.1.0",
+  "description": "Make scrap.tf more user friendly",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://scrap.tf/*"]
+  }]
+}
